@@ -1,3 +1,24 @@
+# AI-Agent: ChthonicCream OpenClaw Deployment
+
+This repository is ChthonicCream's public downstream fork/mirror of the main
+[openclaw/openclaw](https://github.com/openclaw/openclaw) project. The upstream
+remote should remain `https://github.com/openclaw/openclaw.git`, while this
+repository's `origin` should remain
+`https://github.com/ChthonicCream/AI-Agent.git`.
+
+This copy was imported and configured on the Chthonic Cream laptop with help
+from Codex. The local setup uses OpenClaw as a personal, owner-controlled agent
+gateway with WhatsApp pairing, Codex/OpenAI model routing, a loopback-only
+gateway, and approval-gated tool use for shell, filesystem, and repository
+actions. Local credentials, WhatsApp session files, API keys, gateway tokens,
+and machine-specific state are intentionally not committed to this public repo.
+
+Upstream OpenClaw documentation and source history remain the baseline for
+future updates. Pull upstream changes from `openclaw/openclaw`, then push local
+deployment changes to `ChthonicCream/AI-Agent`.
+
+## Upstream OpenClaw README
+
 # 🦞 OpenClaw — Personal AI Assistant
 
 <p align="center">
