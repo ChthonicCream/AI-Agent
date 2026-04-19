@@ -6,12 +6,13 @@ remote should remain `https://github.com/openclaw/openclaw.git`, while this
 repository's `origin` should remain
 `https://github.com/ChthonicCream/AI-Agent.git`.
 
-This copy was imported and configured on the Chthonic Cream laptop with help
-from Codex. The local setup uses OpenClaw as a personal, owner-controlled agent
-gateway with WhatsApp pairing, Codex/OpenAI model routing, a loopback-only
-gateway, and approval-gated tool use for shell, filesystem, and repository
-actions. Local credentials, WhatsApp session files, API keys, gateway tokens,
-and machine-specific state are intentionally not committed to this public repo.
+This copy was imported and configured on the Chthonic Cream laptop. I used Codex
+to setup originally in WhatsApp, then swapped to Antigravity and finished the
+setup in Telegram. The local setup uses OpenClaw as a personal, owner-controlled
+agent gateway with Telegram pairing, Antigravity/Gemini model routing, a
+loopback-only gateway, and approval-gated tool use for shell, filesystem, and
+repository actions. Local credentials, Telegram tokens, API keys, gateway
+tokens, and machine-specific state are intentionally not committed to this repo.
 
 Upstream OpenClaw documentation and source history remain the baseline for
 future updates. Pull upstream changes from `openclaw/openclaw`, then push local
